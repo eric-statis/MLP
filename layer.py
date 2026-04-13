@@ -8,7 +8,7 @@ class Layer:
     def backward(self,grad):
         raise NotImplementedError
     
-    ### 参数更新
+    ### 参数更新 可以不用重写
     def update(self, learning_rate):
-        raise NotImplementedError
+        pass
     
